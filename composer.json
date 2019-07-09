@@ -1,0 +1,22 @@
+{
+    "name": "myttyy/information-pusher",
+    "description": ">=7.1 PHP试用的消息推送服务，用于报警系统消息业务推送，暂时内置驱动邮件、钉钉机器人、微信、企业微信、短信",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "myttyy",
+            "email": "1297942619@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "myttyy\\": "src/"
+        }
+    }
+}
